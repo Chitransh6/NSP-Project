@@ -1,0 +1,1159 @@
+{
+  "institution": "Sample Multidisciplinary University",
+  "config": {
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "periods": [
+      {
+        "label": "P1",
+        "start": "09:00",
+        "end": "09:55"
+      },
+      {
+        "label": "P2",
+        "start": "09:55",
+        "end": "10:50"
+      },
+      {
+        "label": "P3",
+        "start": "11:05",
+        "end": "12:00"
+      },
+      {
+        "label": "P4",
+        "start": "12:00",
+        "end": "12:55"
+      },
+      {
+        "label": "P5",
+        "start": "13:45",
+        "end": "14:40"
+      },
+      {
+        "label": "P6",
+        "start": "14:40",
+        "end": "15:35"
+      },
+      {
+        "label": "P7",
+        "start": "15:50",
+        "end": "16:45"
+      },
+      {
+        "label": "P8",
+        "start": "16:45",
+        "end": "17:40"
+      }
+    ],
+    "breaks_after": [
+      4
+    ],
+    "afternoon_start": 5,
+    "max_cohort_periods_per_day": 7,
+    "hours_per_credit": {
+      "L": 1,
+      "T": 1,
+      "P": 2
+    },
+    "day_penalty": {
+      "Sat": 2
+    }
+  },
+  "nep": {
+    "credit_range": [
+      18,
+      26
+    ],
+    "max_weekly_contact_hours": 30,
+    "required_categories": [
+      {
+        "category": "MAJOR",
+        "min_credits": 8,
+        "semesters": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "category": "MINOR",
+        "min_credits": 4,
+        "semesters": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "category": "MDC",
+        "min_credits": 3,
+        "semesters": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "category": "AEC",
+        "min_credits": 2,
+        "semesters": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "category": "SEC",
+        "min_credits": 2,
+        "semesters": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "category": "VAC",
+        "min_credits": 2,
+        "semesters": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "cohorts": [
+    {
+      "id": "PHY1",
+      "name": "B.Sc. Physics - Sem 1",
+      "department": "Physics",
+      "semester": 1,
+      "size": 40
+    },
+    {
+      "id": "CHM1",
+      "name": "B.Sc. Chemistry - Sem 1",
+      "department": "Chemistry",
+      "semester": 1,
+      "size": 40
+    },
+    {
+      "id": "ECO1",
+      "name": "B.A. Economics - Sem 1",
+      "department": "Economics",
+      "semester": 1,
+      "size": 45
+    },
+    {
+      "id": "CS1",
+      "name": "B.Sc. Computer Science - Sem 1",
+      "department": "Computer Science",
+      "semester": 1,
+      "size": 40
+    },
+    {
+      "id": "PHY3",
+      "name": "B.Sc. Physics - Sem 3",
+      "department": "Physics",
+      "semester": 3,
+      "size": 38
+    },
+    {
+      "id": "CS3",
+      "name": "B.Sc. Computer Science - Sem 3",
+      "department": "Computer Science",
+      "semester": 3,
+      "size": 42
+    }
+  ],
+  "faculty": [
+    {
+      "id": "F01",
+      "name": "Dr. Anil Sharma",
+      "department": "Physics",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F02",
+      "name": "Dr. Meera Iyer",
+      "department": "Physics",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F03",
+      "name": "Dr. Rohit Verma",
+      "department": "Physics",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F04",
+      "name": "Dr. Kavita Rao",
+      "department": "Chemistry",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F05",
+      "name": "Dr. Sanjay Gupta",
+      "department": "Chemistry",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F06",
+      "name": "Dr. Neha Kapoor",
+      "department": "Economics",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F07",
+      "name": "Dr. Arvind Menon",
+      "department": "Economics",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F08",
+      "name": "Dr. Priya Nair",
+      "department": "Computer Science",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F09",
+      "name": "Mr. Rahul Jain",
+      "department": "Computer Science",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F10",
+      "name": "Dr. Sneha Patel",
+      "department": "Computer Science",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F11",
+      "name": "Mr. Imran Khan (visiting)",
+      "department": "Computer Science",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": [
+        {
+          "day": "Thu"
+        },
+        {
+          "day": "Fri"
+        }
+      ]
+    },
+    {
+      "id": "F12",
+      "name": "Dr. Vikram Singh",
+      "department": "Mathematics",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F13",
+      "name": "Dr. Anjali Desai",
+      "department": "Mathematics",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F14",
+      "name": "Dr. Farah Ahmed",
+      "department": "English",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": [
+        {
+          "day": "Sat",
+          "periods": [
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F15",
+      "name": "Dr. Mohan Das",
+      "department": "Environmental Science",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F16",
+      "name": "Dr. Lata Mishra",
+      "department": "Psychology",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F17",
+      "name": "Dr. Karan Malhotra",
+      "department": "Political Science",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F18",
+      "name": "Ms. Isha Bose",
+      "department": "Music",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F19",
+      "name": "Dr. Rajeev Sinha",
+      "department": "Humanities",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F20",
+      "name": "Dr. Tara Joshi",
+      "department": "Environmental Science",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    },
+    {
+      "id": "F21",
+      "name": "Mr. Sameer Ali (visiting)",
+      "department": "Management",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": [
+        {
+          "day": "Thu"
+        },
+        {
+          "day": "Fri"
+        },
+        {
+          "day": "Sat"
+        }
+      ]
+    },
+    {
+      "id": "F22",
+      "name": "Dr. Pooja Reddy",
+      "department": "Statistics",
+      "max_hours_per_day": 5,
+      "max_hours_per_week": 18,
+      "unavailable": []
+    }
+  ],
+  "rooms": [
+    {
+      "id": "CR-101",
+      "name": "Classroom 101",
+      "kind": "classroom",
+      "capacity": 60
+    },
+    {
+      "id": "CR-102",
+      "name": "Classroom 102",
+      "kind": "classroom",
+      "capacity": 60
+    },
+    {
+      "id": "CR-103",
+      "name": "Classroom 103",
+      "kind": "classroom",
+      "capacity": 60
+    },
+    {
+      "id": "CR-104",
+      "name": "Classroom 104",
+      "kind": "classroom",
+      "capacity": 60
+    },
+    {
+      "id": "CR-105",
+      "name": "Classroom 105",
+      "kind": "classroom",
+      "capacity": 50
+    },
+    {
+      "id": "CR-106",
+      "name": "Classroom 106",
+      "kind": "classroom",
+      "capacity": 50
+    },
+    {
+      "id": "CR-107",
+      "name": "Classroom 107",
+      "kind": "classroom",
+      "capacity": 50
+    },
+    {
+      "id": "CR-108",
+      "name": "Classroom 108",
+      "kind": "classroom",
+      "capacity": 50
+    },
+    {
+      "id": "SEM-HALL",
+      "name": "Seminar Hall",
+      "kind": "classroom",
+      "capacity": 200,
+      "tags": [
+        "hall"
+      ]
+    },
+    {
+      "id": "LAB-PHY",
+      "name": "Physics Lab",
+      "kind": "lab",
+      "capacity": 45,
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "LAB-CHM",
+      "name": "Chemistry Lab",
+      "kind": "lab",
+      "capacity": 45,
+      "tags": [
+        "chemistry"
+      ]
+    },
+    {
+      "id": "LAB-CS1",
+      "name": "Computer Lab 1",
+      "kind": "lab",
+      "capacity": 60,
+      "tags": [
+        "computer"
+      ]
+    },
+    {
+      "id": "LAB-CS2",
+      "name": "Computer Lab 2",
+      "kind": "lab",
+      "capacity": 60,
+      "tags": [
+        "computer"
+      ]
+    }
+  ],
+  "baskets": [
+    {
+      "id": "BK-MIN-S1-SCI",
+      "name": "Minor Pool - Sciences (Sem 1)",
+      "category": "MINOR",
+      "cohorts": [
+        "PHY1",
+        "CHM1"
+      ]
+    },
+    {
+      "id": "BK-MIN-S1-SOC",
+      "name": "Minor Pool - Social Sciences (Sem 1)",
+      "category": "MINOR",
+      "cohorts": [
+        "ECO1",
+        "CS1"
+      ]
+    },
+    {
+      "id": "BK-MDC-S1",
+      "name": "Multidisciplinary Pool (Sem 1)",
+      "category": "MDC",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ]
+    },
+    {
+      "id": "BK-SEC-S1",
+      "name": "Skill Pool (Sem 1)",
+      "category": "SEC",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ]
+    },
+    {
+      "id": "BK-MIN-S3",
+      "name": "Minor Pool (Sem 3)",
+      "category": "MINOR",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ]
+    },
+    {
+      "id": "BK-MDC-S3",
+      "name": "Multidisciplinary Pool (Sem 3)",
+      "category": "MDC",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ]
+    },
+    {
+      "id": "BK-SEC-S3",
+      "name": "Skill Pool (Sem 3)",
+      "category": "SEC",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "PHY101",
+      "name": "Mechanics & Waves",
+      "category": "MAJOR",
+      "department": "Physics",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 1
+      },
+      "faculty": [
+        "F01",
+        "F02"
+      ],
+      "cohorts": [
+        "PHY1"
+      ],
+      "lab_type": "physics"
+    },
+    {
+      "id": "MAT101",
+      "name": "Mathematical Physics I",
+      "category": "MAJOR",
+      "department": "Mathematics",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F12"
+      ],
+      "cohorts": [
+        "PHY1"
+      ]
+    },
+    {
+      "id": "CHM101",
+      "name": "Atomic Structure & Bonding",
+      "category": "MAJOR",
+      "department": "Chemistry",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 1
+      },
+      "faculty": [
+        "F04"
+      ],
+      "cohorts": [
+        "CHM1"
+      ],
+      "lab_type": "chemistry"
+    },
+    {
+      "id": "CHM102",
+      "name": "Basic Organic Chemistry",
+      "category": "MAJOR",
+      "department": "Chemistry",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F05"
+      ],
+      "cohorts": [
+        "CHM1"
+      ]
+    },
+    {
+      "id": "ECO101",
+      "name": "Microeconomics I",
+      "category": "MAJOR",
+      "department": "Economics",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F06"
+      ],
+      "cohorts": [
+        "ECO1"
+      ]
+    },
+    {
+      "id": "ECO102",
+      "name": "Quantitative Methods I",
+      "category": "MAJOR",
+      "department": "Economics",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F07"
+      ],
+      "cohorts": [
+        "ECO1"
+      ]
+    },
+    {
+      "id": "CSC101",
+      "name": "Programming Fundamentals",
+      "category": "MAJOR",
+      "department": "Computer Science",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 1
+      },
+      "faculty": [
+        "F08",
+        "F09"
+      ],
+      "cohorts": [
+        "CS1"
+      ],
+      "lab_type": "computer"
+    },
+    {
+      "id": "CSC102",
+      "name": "Discrete Mathematics",
+      "category": "MAJOR",
+      "department": "Mathematics",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F13"
+      ],
+      "cohorts": [
+        "CS1"
+      ]
+    },
+    {
+      "id": "MIN101",
+      "name": "Calculus for Sciences",
+      "category": "MINOR",
+      "department": "Mathematics",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F12"
+      ],
+      "basket": "BK-MIN-S1-SCI",
+      "enrolment": 45
+    },
+    {
+      "id": "MIN102",
+      "name": "Introductory Statistics",
+      "category": "MINOR",
+      "department": "Statistics",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F22",
+        "F13"
+      ],
+      "basket": "BK-MIN-S1-SCI",
+      "enrolment": 45
+    },
+    {
+      "id": "MIN201",
+      "name": "Introduction to Psychology",
+      "category": "MINOR",
+      "department": "Psychology",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F16"
+      ],
+      "basket": "BK-MIN-S1-SOC",
+      "enrolment": 45
+    },
+    {
+      "id": "MIN202",
+      "name": "Political Science Basics",
+      "category": "MINOR",
+      "department": "Political Science",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F17"
+      ],
+      "basket": "BK-MIN-S1-SOC",
+      "enrolment": 45
+    },
+    {
+      "id": "MDC101",
+      "name": "Sustainable Development",
+      "category": "MDC",
+      "department": "Environmental Science",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 0
+      },
+      "faculty": [
+        "F20"
+      ],
+      "basket": "BK-MDC-S1",
+      "enrolment": 45
+    },
+    {
+      "id": "MDC102",
+      "name": "Music Appreciation",
+      "category": "MDC",
+      "department": "Music",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 0
+      },
+      "faculty": [
+        "F18"
+      ],
+      "basket": "BK-MDC-S1",
+      "enrolment": 45
+    },
+    {
+      "id": "MDC103",
+      "name": "Data Literacy",
+      "category": "MDC",
+      "department": "Statistics",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 0
+      },
+      "faculty": [
+        "F22"
+      ],
+      "basket": "BK-MDC-S1",
+      "enrolment": 45
+    },
+    {
+      "id": "MDC104",
+      "name": "Creative Writing",
+      "category": "MDC",
+      "department": "Humanities",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 0
+      },
+      "faculty": [
+        "F19"
+      ],
+      "basket": "BK-MDC-S1",
+      "enrolment": 45
+    },
+    {
+      "id": "AEC101",
+      "name": "English Communication",
+      "category": "AEC",
+      "department": "English",
+      "credits": {
+        "L": 2,
+        "T": 0,
+        "P": 0
+      },
+      "faculty": [
+        "F14"
+      ],
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ]
+    },
+    {
+      "id": "VAC101",
+      "name": "Environmental Studies",
+      "category": "VAC",
+      "department": "Environmental Science",
+      "credits": {
+        "L": 2,
+        "T": 0,
+        "P": 0
+      },
+      "faculty": [
+        "F15"
+      ],
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ]
+    },
+    {
+      "id": "SEC101",
+      "name": "Python Programming",
+      "category": "SEC",
+      "department": "Computer Science",
+      "credits": {
+        "L": 1,
+        "T": 0,
+        "P": 1
+      },
+      "faculty": [
+        "F09",
+        "F11"
+      ],
+      "basket": "BK-SEC-S1",
+      "enrolment": 60,
+      "lab_type": "computer"
+    },
+    {
+      "id": "SEC102",
+      "name": "Spreadsheet & Data Tools",
+      "category": "SEC",
+      "department": "Statistics",
+      "credits": {
+        "L": 1,
+        "T": 0,
+        "P": 1
+      },
+      "faculty": [
+        "F22",
+        "F11"
+      ],
+      "basket": "BK-SEC-S1",
+      "enrolment": 60,
+      "lab_type": "computer"
+    },
+    {
+      "id": "SEC103",
+      "name": "Electronics Hobby Lab",
+      "category": "SEC",
+      "department": "Physics",
+      "credits": {
+        "L": 1,
+        "T": 0,
+        "P": 1
+      },
+      "faculty": [
+        "F03"
+      ],
+      "basket": "BK-SEC-S1",
+      "enrolment": 45,
+      "lab_type": "physics"
+    },
+    {
+      "id": "PHY301",
+      "name": "Thermal Physics",
+      "category": "MAJOR",
+      "department": "Physics",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 1
+      },
+      "faculty": [
+        "F01",
+        "F02"
+      ],
+      "cohorts": [
+        "PHY3"
+      ],
+      "lab_type": "physics"
+    },
+    {
+      "id": "PHY302",
+      "name": "Electromagnetic Theory",
+      "category": "MAJOR",
+      "department": "Physics",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F03"
+      ],
+      "cohorts": [
+        "PHY3"
+      ]
+    },
+    {
+      "id": "PHY303",
+      "name": "Quantum Mechanics I",
+      "category": "MAJOR",
+      "department": "Physics",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F01",
+        "F03"
+      ],
+      "cohorts": [
+        "PHY3"
+      ]
+    },
+    {
+      "id": "CSC301",
+      "name": "Data Structures",
+      "category": "MAJOR",
+      "department": "Computer Science",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 1
+      },
+      "faculty": [
+        "F08",
+        "F10"
+      ],
+      "cohorts": [
+        "CS3"
+      ],
+      "lab_type": "computer"
+    },
+    {
+      "id": "CSC302",
+      "name": "Database Management Systems",
+      "category": "MAJOR",
+      "department": "Computer Science",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 1
+      },
+      "faculty": [
+        "F09",
+        "F10"
+      ],
+      "cohorts": [
+        "CS3"
+      ],
+      "lab_type": "computer"
+    },
+    {
+      "id": "CSC303",
+      "name": "Computer Organization",
+      "category": "MAJOR",
+      "department": "Computer Science",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F10"
+      ],
+      "cohorts": [
+        "CS3"
+      ]
+    },
+    {
+      "id": "MIN301",
+      "name": "Computational Mathematics",
+      "category": "MINOR",
+      "department": "Mathematics",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F12"
+      ],
+      "basket": "BK-MIN-S3",
+      "enrolment": 40
+    },
+    {
+      "id": "MIN302",
+      "name": "Applied Statistics",
+      "category": "MINOR",
+      "department": "Statistics",
+      "credits": {
+        "L": 3,
+        "T": 1,
+        "P": 0
+      },
+      "faculty": [
+        "F22",
+        "F13"
+      ],
+      "basket": "BK-MIN-S3",
+      "enrolment": 40
+    },
+    {
+      "id": "MDC301",
+      "name": "Entrepreneurship & Startups",
+      "category": "MDC",
+      "department": "Management",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 0
+      },
+      "faculty": [
+        "F21"
+      ],
+      "basket": "BK-MDC-S3",
+      "enrolment": 30
+    },
+    {
+      "id": "MDC302",
+      "name": "Film Studies",
+      "category": "MDC",
+      "department": "Humanities",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 0
+      },
+      "faculty": [
+        "F19"
+      ],
+      "basket": "BK-MDC-S3",
+      "enrolment": 30
+    },
+    {
+      "id": "MDC303",
+      "name": "Yoga & Wellness",
+      "category": "MDC",
+      "department": "Environmental Science",
+      "credits": {
+        "L": 3,
+        "T": 0,
+        "P": 0
+      },
+      "faculty": [
+        "F20"
+      ],
+      "basket": "BK-MDC-S3",
+      "enrolment": 30
+    },
+    {
+      "id": "AEC301",
+      "name": "Professional Communication",
+      "category": "AEC",
+      "department": "English",
+      "credits": {
+        "L": 2,
+        "T": 0,
+        "P": 0
+      },
+      "faculty": [
+        "F14"
+      ],
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ]
+    },
+    {
+      "id": "SEC301",
+      "name": "Web Development Basics",
+      "category": "SEC",
+      "department": "Computer Science",
+      "credits": {
+        "L": 1,
+        "T": 0,
+        "P": 1
+      },
+      "faculty": [
+        "F09",
+        "F11"
+      ],
+      "basket": "BK-SEC-S3",
+      "enrolment": 45,
+      "lab_type": "computer"
+    },
+    {
+      "id": "SEC302",
+      "name": "Scientific Computing with Python",
+      "category": "SEC",
+      "department": "Computer Science",
+      "credits": {
+        "L": 1,
+        "T": 0,
+        "P": 1
+      },
+      "faculty": [
+        "F10",
+        "F22"
+      ],
+      "basket": "BK-SEC-S3",
+      "enrolment": 45,
+      "lab_type": "computer"
+    }
+  ]
+}

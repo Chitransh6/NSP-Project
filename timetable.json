@@ -1,0 +1,3898 @@
+{
+  "status": "FEASIBLE",
+  "wall_time": 40.01,
+  "n_events": 84,
+  "sessions": [
+    {
+      "event_id": "CSC101#4",
+      "course_id": "CSC101",
+      "course_name": "Programming Fundamentals",
+      "category": "MAJOR",
+      "kind": "practical",
+      "day": 0,
+      "day_name": "Mon",
+      "period": 2,
+      "duration": 2,
+      "start_time": "11:05",
+      "end_time": "12:55",
+      "cohorts": [
+        "CS1"
+      ],
+      "faculty_id": "F09",
+      "faculty_name": "Mr. Rahul Jain",
+      "room_id": "LAB-CS2",
+      "room_name": "Computer Lab 2",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC302#4",
+      "course_id": "CSC302",
+      "course_name": "Database Management Systems",
+      "category": "MAJOR",
+      "kind": "practical",
+      "day": 0,
+      "day_name": "Mon",
+      "period": 2,
+      "duration": 2,
+      "start_time": "11:05",
+      "end_time": "12:55",
+      "cohorts": [
+        "CS3"
+      ],
+      "faculty_id": "F10",
+      "faculty_name": "Dr. Sneha Patel",
+      "room_id": "LAB-CS1",
+      "room_name": "Computer Lab 1",
+      "enrolment": 42,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CHM101#2",
+      "course_id": "CHM101",
+      "course_name": "Atomic Structure & Bonding",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 0,
+      "day_name": "Mon",
+      "period": 3,
+      "duration": 1,
+      "start_time": "12:00",
+      "end_time": "12:55",
+      "cohorts": [
+        "CHM1"
+      ],
+      "faculty_id": "F04",
+      "faculty_name": "Dr. Kavita Rao",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CHM101#4",
+      "course_id": "CHM101",
+      "course_name": "Atomic Structure & Bonding",
+      "category": "MAJOR",
+      "kind": "practical",
+      "day": 0,
+      "day_name": "Mon",
+      "period": 4,
+      "duration": 2,
+      "start_time": "13:45",
+      "end_time": "15:35",
+      "cohorts": [
+        "CHM1"
+      ],
+      "faculty_id": "F04",
+      "faculty_name": "Dr. Kavita Rao",
+      "room_id": "LAB-CHM",
+      "room_name": "Chemistry Lab",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-SEC-S3#2",
+      "course_id": "SEC301",
+      "course_name": "Web Development Basics",
+      "category": "SEC",
+      "kind": "practical",
+      "day": 0,
+      "day_name": "Mon",
+      "period": 4,
+      "duration": 2,
+      "start_time": "13:45",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F09",
+      "faculty_name": "Mr. Rahul Jain",
+      "room_id": "LAB-CS2",
+      "room_name": "Computer Lab 2",
+      "enrolment": 45,
+      "basket_id": "BK-SEC-S3",
+      "basket_name": "Skill Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-SEC-S3#2",
+      "course_id": "SEC302",
+      "course_name": "Scientific Computing with Python",
+      "category": "SEC",
+      "kind": "practical",
+      "day": 0,
+      "day_name": "Mon",
+      "period": 4,
+      "duration": 2,
+      "start_time": "13:45",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F22",
+      "faculty_name": "Dr. Pooja Reddy",
+      "room_id": "LAB-CS1",
+      "room_name": "Computer Lab 1",
+      "enrolment": 45,
+      "basket_id": "BK-SEC-S3",
+      "basket_name": "Skill Pool (Sem 3)"
+    },
+    {
+      "event_id": "MAT101#1",
+      "course_id": "MAT101",
+      "course_name": "Mathematical Physics I",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 0,
+      "day_name": "Mon",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY1"
+      ],
+      "faculty_id": "F12",
+      "faculty_name": "Dr. Vikram Singh",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-MDC-S3#1",
+      "course_id": "MDC301",
+      "course_name": "Entrepreneurship & Startups",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 0,
+      "day_name": "Mon",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F21",
+      "faculty_name": "Mr. Sameer Ali (visiting)",
+      "room_id": "CR-103",
+      "room_name": "Classroom 103",
+      "enrolment": 30,
+      "basket_id": "BK-MDC-S3",
+      "basket_name": "Multidisciplinary Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-MDC-S3#1",
+      "course_id": "MDC302",
+      "course_name": "Film Studies",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 0,
+      "day_name": "Mon",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F19",
+      "faculty_name": "Dr. Rajeev Sinha",
+      "room_id": "CR-102",
+      "room_name": "Classroom 102",
+      "enrolment": 30,
+      "basket_id": "BK-MDC-S3",
+      "basket_name": "Multidisciplinary Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-MDC-S3#1",
+      "course_id": "MDC303",
+      "course_name": "Yoga & Wellness",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 0,
+      "day_name": "Mon",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F20",
+      "faculty_name": "Dr. Tara Joshi",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 30,
+      "basket_id": "BK-MDC-S3",
+      "basket_name": "Multidisciplinary Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-SEC-S1#2",
+      "course_id": "SEC101",
+      "course_name": "Python Programming",
+      "category": "SEC",
+      "kind": "practical",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 0,
+      "duration": 2,
+      "start_time": "09:00",
+      "end_time": "10:50",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F11",
+      "faculty_name": "Mr. Imran Khan (visiting)",
+      "room_id": "LAB-CS1",
+      "room_name": "Computer Lab 1",
+      "enrolment": 60,
+      "basket_id": "BK-SEC-S1",
+      "basket_name": "Skill Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-SEC-S1#2",
+      "course_id": "SEC102",
+      "course_name": "Spreadsheet & Data Tools",
+      "category": "SEC",
+      "kind": "practical",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 0,
+      "duration": 2,
+      "start_time": "09:00",
+      "end_time": "10:50",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F22",
+      "faculty_name": "Dr. Pooja Reddy",
+      "room_id": "LAB-CS2",
+      "room_name": "Computer Lab 2",
+      "enrolment": 60,
+      "basket_id": "BK-SEC-S1",
+      "basket_name": "Skill Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-SEC-S1#2",
+      "course_id": "SEC103",
+      "course_name": "Electronics Hobby Lab",
+      "category": "SEC",
+      "kind": "practical",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 0,
+      "duration": 2,
+      "start_time": "09:00",
+      "end_time": "10:50",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F03",
+      "faculty_name": "Dr. Rohit Verma",
+      "room_id": "LAB-PHY",
+      "room_name": "Physics Lab",
+      "enrolment": 45,
+      "basket_id": "BK-SEC-S1",
+      "basket_name": "Skill Pool (Sem 1)"
+    },
+    {
+      "event_id": "CSC102#4",
+      "course_id": "CSC102",
+      "course_name": "Discrete Mathematics",
+      "category": "MAJOR",
+      "kind": "tutorial",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 2,
+      "duration": 1,
+      "start_time": "11:05",
+      "end_time": "12:00",
+      "cohorts": [
+        "CS1"
+      ],
+      "faculty_id": "F13",
+      "faculty_name": "Dr. Anjali Desai",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "ECO101#4",
+      "course_id": "ECO101",
+      "course_name": "Microeconomics I",
+      "category": "MAJOR",
+      "kind": "tutorial",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 2,
+      "duration": 1,
+      "start_time": "11:05",
+      "end_time": "12:00",
+      "cohorts": [
+        "ECO1"
+      ],
+      "faculty_id": "F06",
+      "faculty_name": "Dr. Neha Kapoor",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-MIN-S1-SCI#3",
+      "course_id": "MIN101",
+      "course_name": "Calculus for Sciences",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 2,
+      "duration": 1,
+      "start_time": "11:05",
+      "end_time": "12:00",
+      "cohorts": [
+        "PHY1",
+        "CHM1"
+      ],
+      "faculty_id": "F12",
+      "faculty_name": "Dr. Vikram Singh",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SCI",
+      "basket_name": "Minor Pool - Sciences (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S1-SCI#3",
+      "course_id": "MIN102",
+      "course_name": "Introductory Statistics",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 2,
+      "duration": 1,
+      "start_time": "11:05",
+      "end_time": "12:00",
+      "cohorts": [
+        "PHY1",
+        "CHM1"
+      ],
+      "faculty_id": "F22",
+      "faculty_name": "Dr. Pooja Reddy",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SCI",
+      "basket_name": "Minor Pool - Sciences (Sem 1)"
+    },
+    {
+      "event_id": "CHM102#3",
+      "course_id": "CHM102",
+      "course_name": "Basic Organic Chemistry",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 3,
+      "duration": 1,
+      "start_time": "12:00",
+      "end_time": "12:55",
+      "cohorts": [
+        "CHM1"
+      ],
+      "faculty_id": "F05",
+      "faculty_name": "Dr. Sanjay Gupta",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC301#3",
+      "course_id": "CSC301",
+      "course_name": "Data Structures",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 3,
+      "duration": 1,
+      "start_time": "12:00",
+      "end_time": "12:55",
+      "cohorts": [
+        "CS3"
+      ],
+      "faculty_id": "F08",
+      "faculty_name": "Dr. Priya Nair",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 42,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC303#1",
+      "course_id": "CSC303",
+      "course_name": "Computer Organization",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "CS3"
+      ],
+      "faculty_id": "F10",
+      "faculty_name": "Dr. Sneha Patel",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 42,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC301#4",
+      "course_id": "CSC301",
+      "course_name": "Data Structures",
+      "category": "MAJOR",
+      "kind": "practical",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 5,
+      "duration": 2,
+      "start_time": "14:40",
+      "end_time": "16:45",
+      "cohorts": [
+        "CS3"
+      ],
+      "faculty_id": "F08",
+      "faculty_name": "Dr. Priya Nair",
+      "room_id": "LAB-CS2",
+      "room_name": "Computer Lab 2",
+      "enrolment": 42,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "PHY301#4",
+      "course_id": "PHY301",
+      "course_name": "Thermal Physics",
+      "category": "MAJOR",
+      "kind": "practical",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 5,
+      "duration": 2,
+      "start_time": "14:40",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY3"
+      ],
+      "faculty_id": "F01",
+      "faculty_name": "Dr. Anil Sharma",
+      "room_id": "LAB-PHY",
+      "room_name": "Physics Lab",
+      "enrolment": 38,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-MDC-S3#2",
+      "course_id": "MDC301",
+      "course_name": "Entrepreneurship & Startups",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F21",
+      "faculty_name": "Mr. Sameer Ali (visiting)",
+      "room_id": "CR-103",
+      "room_name": "Classroom 103",
+      "enrolment": 30,
+      "basket_id": "BK-MDC-S3",
+      "basket_name": "Multidisciplinary Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-MDC-S3#2",
+      "course_id": "MDC302",
+      "course_name": "Film Studies",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F19",
+      "faculty_name": "Dr. Rajeev Sinha",
+      "room_id": "CR-102",
+      "room_name": "Classroom 102",
+      "enrolment": 30,
+      "basket_id": "BK-MDC-S3",
+      "basket_name": "Multidisciplinary Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-MDC-S3#2",
+      "course_id": "MDC303",
+      "course_name": "Yoga & Wellness",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 1,
+      "day_name": "Tue",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F20",
+      "faculty_name": "Dr. Tara Joshi",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 30,
+      "basket_id": "BK-MDC-S3",
+      "basket_name": "Multidisciplinary Pool (Sem 3)"
+    },
+    {
+      "event_id": "PHY301#1",
+      "course_id": "PHY301",
+      "course_name": "Thermal Physics",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 3,
+      "duration": 1,
+      "start_time": "12:00",
+      "end_time": "12:55",
+      "cohorts": [
+        "PHY3"
+      ],
+      "faculty_id": "F01",
+      "faculty_name": "Dr. Anil Sharma",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 38,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "PHY101#2",
+      "course_id": "PHY101",
+      "course_name": "Mechanics & Waves",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "PHY1"
+      ],
+      "faculty_id": "F02",
+      "faculty_name": "Dr. Meera Iyer",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "PHY302#1",
+      "course_id": "PHY302",
+      "course_name": "Electromagnetic Theory",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "PHY3"
+      ],
+      "faculty_id": "F03",
+      "faculty_name": "Dr. Rohit Verma",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 38,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC303#4",
+      "course_id": "CSC303",
+      "course_name": "Computer Organization",
+      "category": "MAJOR",
+      "kind": "tutorial",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "CS3"
+      ],
+      "faculty_id": "F10",
+      "faculty_name": "Dr. Sneha Patel",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 42,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "ECO101#1",
+      "course_id": "ECO101",
+      "course_name": "Microeconomics I",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "ECO1"
+      ],
+      "faculty_id": "F06",
+      "faculty_name": "Dr. Neha Kapoor",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "MAT101#2",
+      "course_id": "MAT101",
+      "course_name": "Mathematical Physics I",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY1"
+      ],
+      "faculty_id": "F12",
+      "faculty_name": "Dr. Vikram Singh",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "PHY303#1",
+      "course_id": "PHY303",
+      "course_name": "Quantum Mechanics I",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY3"
+      ],
+      "faculty_id": "F01",
+      "faculty_name": "Dr. Anil Sharma",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 38,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC102#2",
+      "course_id": "CSC102",
+      "course_name": "Discrete Mathematics",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "CS1"
+      ],
+      "faculty_id": "F13",
+      "faculty_name": "Dr. Anjali Desai",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "ECO102#1",
+      "course_id": "ECO102",
+      "course_name": "Quantitative Methods I",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "ECO1"
+      ],
+      "faculty_id": "F07",
+      "faculty_name": "Dr. Arvind Menon",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 45,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-MDC-S3#3",
+      "course_id": "MDC301",
+      "course_name": "Entrepreneurship & Startups",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F21",
+      "faculty_name": "Mr. Sameer Ali (visiting)",
+      "room_id": "CR-103",
+      "room_name": "Classroom 103",
+      "enrolment": 30,
+      "basket_id": "BK-MDC-S3",
+      "basket_name": "Multidisciplinary Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-MDC-S3#3",
+      "course_id": "MDC302",
+      "course_name": "Film Studies",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F19",
+      "faculty_name": "Dr. Rajeev Sinha",
+      "room_id": "CR-102",
+      "room_name": "Classroom 102",
+      "enrolment": 30,
+      "basket_id": "BK-MDC-S3",
+      "basket_name": "Multidisciplinary Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-MDC-S3#3",
+      "course_id": "MDC303",
+      "course_name": "Yoga & Wellness",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F20",
+      "faculty_name": "Dr. Tara Joshi",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 30,
+      "basket_id": "BK-MDC-S3",
+      "basket_name": "Multidisciplinary Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-MIN-S1-SCI#1",
+      "course_id": "MIN101",
+      "course_name": "Calculus for Sciences",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY1",
+        "CHM1"
+      ],
+      "faculty_id": "F12",
+      "faculty_name": "Dr. Vikram Singh",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SCI",
+      "basket_name": "Minor Pool - Sciences (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S1-SCI#1",
+      "course_id": "MIN102",
+      "course_name": "Introductory Statistics",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY1",
+        "CHM1"
+      ],
+      "faculty_id": "F22",
+      "faculty_name": "Dr. Pooja Reddy",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SCI",
+      "basket_name": "Minor Pool - Sciences (Sem 1)"
+    },
+    {
+      "event_id": "CHM102#1",
+      "course_id": "CHM102",
+      "course_name": "Basic Organic Chemistry",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "CHM1"
+      ],
+      "faculty_id": "F05",
+      "faculty_name": "Dr. Sanjay Gupta",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-MIN-S1-SOC#1",
+      "course_id": "MIN201",
+      "course_name": "Introduction to Psychology",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F16",
+      "faculty_name": "Dr. Lata Mishra",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SOC",
+      "basket_name": "Minor Pool - Social Sciences (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S1-SOC#1",
+      "course_id": "MIN202",
+      "course_name": "Political Science Basics",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F17",
+      "faculty_name": "Dr. Karan Malhotra",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SOC",
+      "basket_name": "Minor Pool - Social Sciences (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S3#1",
+      "course_id": "MIN301",
+      "course_name": "Computational Mathematics",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F12",
+      "faculty_name": "Dr. Vikram Singh",
+      "room_id": "CR-102",
+      "room_name": "Classroom 102",
+      "enrolment": 40,
+      "basket_id": "BK-MIN-S3",
+      "basket_name": "Minor Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-MIN-S3#1",
+      "course_id": "MIN302",
+      "course_name": "Applied Statistics",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 2,
+      "day_name": "Wed",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F13",
+      "faculty_name": "Dr. Anjali Desai",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 40,
+      "basket_id": "BK-MIN-S3",
+      "basket_name": "Minor Pool (Sem 3)"
+    },
+    {
+      "event_id": "CSC303#2",
+      "course_id": "CSC303",
+      "course_name": "Computer Organization",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 3,
+      "duration": 1,
+      "start_time": "12:00",
+      "end_time": "12:55",
+      "cohorts": [
+        "CS3"
+      ],
+      "faculty_id": "F10",
+      "faculty_name": "Dr. Sneha Patel",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 42,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CHM101#1",
+      "course_id": "CHM101",
+      "course_name": "Atomic Structure & Bonding",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "CHM1"
+      ],
+      "faculty_id": "F04",
+      "faculty_name": "Dr. Kavita Rao",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC101#1",
+      "course_id": "CSC101",
+      "course_name": "Programming Fundamentals",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "CS1"
+      ],
+      "faculty_id": "F09",
+      "faculty_name": "Mr. Rahul Jain",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC301#1",
+      "course_id": "CSC301",
+      "course_name": "Data Structures",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "CS3"
+      ],
+      "faculty_id": "F08",
+      "faculty_name": "Dr. Priya Nair",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 42,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "ECO101#2",
+      "course_id": "ECO101",
+      "course_name": "Microeconomics I",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "ECO1"
+      ],
+      "faculty_id": "F06",
+      "faculty_name": "Dr. Neha Kapoor",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "PHY101#4",
+      "course_id": "PHY101",
+      "course_name": "Mechanics & Waves",
+      "category": "MAJOR",
+      "kind": "practical",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 4,
+      "duration": 2,
+      "start_time": "13:45",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY1"
+      ],
+      "faculty_id": "F02",
+      "faculty_name": "Dr. Meera Iyer",
+      "room_id": "LAB-PHY",
+      "room_name": "Physics Lab",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "PHY302#2",
+      "course_id": "PHY302",
+      "course_name": "Electromagnetic Theory",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "PHY3"
+      ],
+      "faculty_id": "F03",
+      "faculty_name": "Dr. Rohit Verma",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 38,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "AEC301#1",
+      "course_id": "AEC301",
+      "course_name": "Professional Communication",
+      "category": "AEC",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F14",
+      "faculty_name": "Dr. Farah Ahmed",
+      "room_id": "SEM-HALL",
+      "room_name": "Seminar Hall",
+      "enrolment": 80,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CHM102#2",
+      "course_id": "CHM102",
+      "course_name": "Basic Organic Chemistry",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "CHM1"
+      ],
+      "faculty_id": "F05",
+      "faculty_name": "Dr. Sanjay Gupta",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC102#1",
+      "course_id": "CSC102",
+      "course_name": "Discrete Mathematics",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "CS1"
+      ],
+      "faculty_id": "F13",
+      "faculty_name": "Dr. Anjali Desai",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "ECO102#2",
+      "course_id": "ECO102",
+      "course_name": "Quantitative Methods I",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "ECO1"
+      ],
+      "faculty_id": "F07",
+      "faculty_name": "Dr. Arvind Menon",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC302#3",
+      "course_id": "CSC302",
+      "course_name": "Database Management Systems",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "CS3"
+      ],
+      "faculty_id": "F10",
+      "faculty_name": "Dr. Sneha Patel",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 42,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-MIN-S1-SCI#2",
+      "course_id": "MIN101",
+      "course_name": "Calculus for Sciences",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY1",
+        "CHM1"
+      ],
+      "faculty_id": "F12",
+      "faculty_name": "Dr. Vikram Singh",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SCI",
+      "basket_name": "Minor Pool - Sciences (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S1-SCI#2",
+      "course_id": "MIN102",
+      "course_name": "Introductory Statistics",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY1",
+        "CHM1"
+      ],
+      "faculty_id": "F22",
+      "faculty_name": "Dr. Pooja Reddy",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SCI",
+      "basket_name": "Minor Pool - Sciences (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S1-SOC#2",
+      "course_id": "MIN201",
+      "course_name": "Introduction to Psychology",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F16",
+      "faculty_name": "Dr. Lata Mishra",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SOC",
+      "basket_name": "Minor Pool - Social Sciences (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S1-SOC#2",
+      "course_id": "MIN202",
+      "course_name": "Political Science Basics",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F17",
+      "faculty_name": "Dr. Karan Malhotra",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SOC",
+      "basket_name": "Minor Pool - Social Sciences (Sem 1)"
+    },
+    {
+      "event_id": "PHY303#2",
+      "course_id": "PHY303",
+      "course_name": "Quantum Mechanics I",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY3"
+      ],
+      "faculty_id": "F01",
+      "faculty_name": "Dr. Anil Sharma",
+      "room_id": "CR-102",
+      "room_name": "Classroom 102",
+      "enrolment": 38,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-MDC-S1#1",
+      "course_id": "MDC101",
+      "course_name": "Sustainable Development",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F20",
+      "faculty_name": "Dr. Tara Joshi",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 45,
+      "basket_id": "BK-MDC-S1",
+      "basket_name": "Multidisciplinary Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-MDC-S1#1",
+      "course_id": "MDC102",
+      "course_name": "Music Appreciation",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F18",
+      "faculty_name": "Ms. Isha Bose",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 45,
+      "basket_id": "BK-MDC-S1",
+      "basket_name": "Multidisciplinary Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-MDC-S1#1",
+      "course_id": "MDC103",
+      "course_name": "Data Literacy",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F22",
+      "faculty_name": "Dr. Pooja Reddy",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": "BK-MDC-S1",
+      "basket_name": "Multidisciplinary Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-MDC-S1#1",
+      "course_id": "MDC104",
+      "course_name": "Creative Writing",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F19",
+      "faculty_name": "Dr. Rajeev Sinha",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 45,
+      "basket_id": "BK-MDC-S1",
+      "basket_name": "Multidisciplinary Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S3#2",
+      "course_id": "MIN301",
+      "course_name": "Computational Mathematics",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F12",
+      "faculty_name": "Dr. Vikram Singh",
+      "room_id": "CR-102",
+      "room_name": "Classroom 102",
+      "enrolment": 40,
+      "basket_id": "BK-MIN-S3",
+      "basket_name": "Minor Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-MIN-S3#2",
+      "course_id": "MIN302",
+      "course_name": "Applied Statistics",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 3,
+      "day_name": "Thu",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F13",
+      "faculty_name": "Dr. Anjali Desai",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 40,
+      "basket_id": "BK-MIN-S3",
+      "basket_name": "Minor Pool (Sem 3)"
+    },
+    {
+      "event_id": "CSC303#3",
+      "course_id": "CSC303",
+      "course_name": "Computer Organization",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 0,
+      "duration": 1,
+      "start_time": "09:00",
+      "end_time": "09:55",
+      "cohorts": [
+        "CS3"
+      ],
+      "faculty_id": "F10",
+      "faculty_name": "Dr. Sneha Patel",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 42,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "PHY301#2",
+      "course_id": "PHY301",
+      "course_name": "Thermal Physics",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 0,
+      "duration": 1,
+      "start_time": "09:00",
+      "end_time": "09:55",
+      "cohorts": [
+        "PHY3"
+      ],
+      "faculty_id": "F01",
+      "faculty_name": "Dr. Anil Sharma",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 38,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-SEC-S3#1",
+      "course_id": "SEC301",
+      "course_name": "Web Development Basics",
+      "category": "SEC",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 1,
+      "duration": 1,
+      "start_time": "09:55",
+      "end_time": "10:50",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F09",
+      "faculty_name": "Mr. Rahul Jain",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": "BK-SEC-S3",
+      "basket_name": "Skill Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-SEC-S3#1",
+      "course_id": "SEC302",
+      "course_name": "Scientific Computing with Python",
+      "category": "SEC",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 1,
+      "duration": 1,
+      "start_time": "09:55",
+      "end_time": "10:50",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F22",
+      "faculty_name": "Dr. Pooja Reddy",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 45,
+      "basket_id": "BK-SEC-S3",
+      "basket_name": "Skill Pool (Sem 3)"
+    },
+    {
+      "event_id": "CSC101#2",
+      "course_id": "CSC101",
+      "course_name": "Programming Fundamentals",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 2,
+      "duration": 1,
+      "start_time": "11:05",
+      "end_time": "12:00",
+      "cohorts": [
+        "CS1"
+      ],
+      "faculty_id": "F09",
+      "faculty_name": "Mr. Rahul Jain",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "ECO101#3",
+      "course_id": "ECO101",
+      "course_name": "Microeconomics I",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 2,
+      "duration": 1,
+      "start_time": "11:05",
+      "end_time": "12:00",
+      "cohorts": [
+        "ECO1"
+      ],
+      "faculty_id": "F06",
+      "faculty_name": "Dr. Neha Kapoor",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-MIN-S3#3",
+      "course_id": "MIN301",
+      "course_name": "Computational Mathematics",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 2,
+      "duration": 1,
+      "start_time": "11:05",
+      "end_time": "12:00",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F12",
+      "faculty_name": "Dr. Vikram Singh",
+      "room_id": "CR-102",
+      "room_name": "Classroom 102",
+      "enrolment": 40,
+      "basket_id": "BK-MIN-S3",
+      "basket_name": "Minor Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-MIN-S3#3",
+      "course_id": "MIN302",
+      "course_name": "Applied Statistics",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 2,
+      "duration": 1,
+      "start_time": "11:05",
+      "end_time": "12:00",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F13",
+      "faculty_name": "Dr. Anjali Desai",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 40,
+      "basket_id": "BK-MIN-S3",
+      "basket_name": "Minor Pool (Sem 3)"
+    },
+    {
+      "event_id": "CSC102#3",
+      "course_id": "CSC102",
+      "course_name": "Discrete Mathematics",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 3,
+      "duration": 1,
+      "start_time": "12:00",
+      "end_time": "12:55",
+      "cohorts": [
+        "CS1"
+      ],
+      "faculty_id": "F13",
+      "faculty_name": "Dr. Anjali Desai",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC301#2",
+      "course_id": "CSC301",
+      "course_name": "Data Structures",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 3,
+      "duration": 1,
+      "start_time": "12:00",
+      "end_time": "12:55",
+      "cohorts": [
+        "CS3"
+      ],
+      "faculty_id": "F08",
+      "faculty_name": "Dr. Priya Nair",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 42,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "ECO102#3",
+      "course_id": "ECO102",
+      "course_name": "Quantitative Methods I",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 3,
+      "duration": 1,
+      "start_time": "12:00",
+      "end_time": "12:55",
+      "cohorts": [
+        "ECO1"
+      ],
+      "faculty_id": "F07",
+      "faculty_name": "Dr. Arvind Menon",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "MAT101#3",
+      "course_id": "MAT101",
+      "course_name": "Mathematical Physics I",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 3,
+      "duration": 1,
+      "start_time": "12:00",
+      "end_time": "12:55",
+      "cohorts": [
+        "PHY1"
+      ],
+      "faculty_id": "F12",
+      "faculty_name": "Dr. Vikram Singh",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC302#2",
+      "course_id": "CSC302",
+      "course_name": "Database Management Systems",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "CS3"
+      ],
+      "faculty_id": "F10",
+      "faculty_name": "Dr. Sneha Patel",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 42,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-MIN-S1-SOC#3",
+      "course_id": "MIN201",
+      "course_name": "Introduction to Psychology",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F16",
+      "faculty_name": "Dr. Lata Mishra",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SOC",
+      "basket_name": "Minor Pool - Social Sciences (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S1-SOC#3",
+      "course_id": "MIN202",
+      "course_name": "Political Science Basics",
+      "category": "MINOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F17",
+      "faculty_name": "Dr. Karan Malhotra",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SOC",
+      "basket_name": "Minor Pool - Social Sciences (Sem 1)"
+    },
+    {
+      "event_id": "PHY101#1",
+      "course_id": "PHY101",
+      "course_name": "Mechanics & Waves",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "PHY1"
+      ],
+      "faculty_id": "F02",
+      "faculty_name": "Dr. Meera Iyer",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "PHY303#4",
+      "course_id": "PHY303",
+      "course_name": "Quantum Mechanics I",
+      "category": "MAJOR",
+      "kind": "tutorial",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "PHY3"
+      ],
+      "faculty_id": "F01",
+      "faculty_name": "Dr. Anil Sharma",
+      "room_id": "CR-102",
+      "room_name": "Classroom 102",
+      "enrolment": 38,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "AEC101#1",
+      "course_id": "AEC101",
+      "course_name": "English Communication",
+      "category": "AEC",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F14",
+      "faculty_name": "Dr. Farah Ahmed",
+      "room_id": "SEM-HALL",
+      "room_name": "Seminar Hall",
+      "enrolment": 165,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "PHY302#3",
+      "course_id": "PHY302",
+      "course_name": "Electromagnetic Theory",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY3"
+      ],
+      "faculty_id": "F03",
+      "faculty_name": "Dr. Rohit Verma",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 38,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "VAC101#1",
+      "course_id": "VAC101",
+      "course_name": "Environmental Studies",
+      "category": "VAC",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F15",
+      "faculty_name": "Dr. Mohan Das",
+      "room_id": "SEM-HALL",
+      "room_name": "Seminar Hall",
+      "enrolment": 165,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-MDC-S1#2",
+      "course_id": "MDC101",
+      "course_name": "Sustainable Development",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F20",
+      "faculty_name": "Dr. Tara Joshi",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 45,
+      "basket_id": "BK-MDC-S1",
+      "basket_name": "Multidisciplinary Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-MDC-S1#2",
+      "course_id": "MDC102",
+      "course_name": "Music Appreciation",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F18",
+      "faculty_name": "Ms. Isha Bose",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 45,
+      "basket_id": "BK-MDC-S1",
+      "basket_name": "Multidisciplinary Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-MDC-S1#2",
+      "course_id": "MDC103",
+      "course_name": "Data Literacy",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F22",
+      "faculty_name": "Dr. Pooja Reddy",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": "BK-MDC-S1",
+      "basket_name": "Multidisciplinary Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-MDC-S1#2",
+      "course_id": "MDC104",
+      "course_name": "Creative Writing",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 4,
+      "day_name": "Fri",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F19",
+      "faculty_name": "Dr. Rajeev Sinha",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 45,
+      "basket_id": "BK-MDC-S1",
+      "basket_name": "Multidisciplinary Pool (Sem 1)"
+    },
+    {
+      "event_id": "CHM101#3",
+      "course_id": "CHM101",
+      "course_name": "Atomic Structure & Bonding",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 0,
+      "duration": 1,
+      "start_time": "09:00",
+      "end_time": "09:55",
+      "cohorts": [
+        "CHM1"
+      ],
+      "faculty_id": "F04",
+      "faculty_name": "Dr. Kavita Rao",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CHM102#4",
+      "course_id": "CHM102",
+      "course_name": "Basic Organic Chemistry",
+      "category": "MAJOR",
+      "kind": "tutorial",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 1,
+      "duration": 1,
+      "start_time": "09:55",
+      "end_time": "10:50",
+      "cohorts": [
+        "CHM1"
+      ],
+      "faculty_id": "F05",
+      "faculty_name": "Dr. Sanjay Gupta",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "ECO102#4",
+      "course_id": "ECO102",
+      "course_name": "Quantitative Methods I",
+      "category": "MAJOR",
+      "kind": "tutorial",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 1,
+      "duration": 1,
+      "start_time": "09:55",
+      "end_time": "10:50",
+      "cohorts": [
+        "ECO1"
+      ],
+      "faculty_id": "F07",
+      "faculty_name": "Dr. Arvind Menon",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "MAT101#4",
+      "course_id": "MAT101",
+      "course_name": "Mathematical Physics I",
+      "category": "MAJOR",
+      "kind": "tutorial",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 1,
+      "duration": 1,
+      "start_time": "09:55",
+      "end_time": "10:50",
+      "cohorts": [
+        "PHY1"
+      ],
+      "faculty_id": "F12",
+      "faculty_name": "Dr. Vikram Singh",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "AEC101#2",
+      "course_id": "AEC101",
+      "course_name": "English Communication",
+      "category": "AEC",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 2,
+      "duration": 1,
+      "start_time": "11:05",
+      "end_time": "12:00",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F14",
+      "faculty_name": "Dr. Farah Ahmed",
+      "room_id": "SEM-HALL",
+      "room_name": "Seminar Hall",
+      "enrolment": 165,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "AEC301#2",
+      "course_id": "AEC301",
+      "course_name": "Professional Communication",
+      "category": "AEC",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 3,
+      "duration": 1,
+      "start_time": "12:00",
+      "end_time": "12:55",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F14",
+      "faculty_name": "Dr. Farah Ahmed",
+      "room_id": "SEM-HALL",
+      "room_name": "Seminar Hall",
+      "enrolment": 80,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC101#3",
+      "course_id": "CSC101",
+      "course_name": "Programming Fundamentals",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 3,
+      "duration": 1,
+      "start_time": "12:00",
+      "end_time": "12:55",
+      "cohorts": [
+        "CS1"
+      ],
+      "faculty_id": "F09",
+      "faculty_name": "Mr. Rahul Jain",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "PHY101#3",
+      "course_id": "PHY101",
+      "course_name": "Mechanics & Waves",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 3,
+      "duration": 1,
+      "start_time": "12:00",
+      "end_time": "12:55",
+      "cohorts": [
+        "PHY1"
+      ],
+      "faculty_id": "F02",
+      "faculty_name": "Dr. Meera Iyer",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 40,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "CSC302#1",
+      "course_id": "CSC302",
+      "course_name": "Database Management Systems",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "CS3"
+      ],
+      "faculty_id": "F10",
+      "faculty_name": "Dr. Sneha Patel",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 42,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-MIN-S1-SCI#4",
+      "course_id": "MIN101",
+      "course_name": "Calculus for Sciences",
+      "category": "MINOR",
+      "kind": "tutorial",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1"
+      ],
+      "faculty_id": "F12",
+      "faculty_name": "Dr. Vikram Singh",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SCI",
+      "basket_name": "Minor Pool - Sciences (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S1-SCI#4",
+      "course_id": "MIN102",
+      "course_name": "Introductory Statistics",
+      "category": "MINOR",
+      "kind": "tutorial",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1"
+      ],
+      "faculty_id": "F22",
+      "faculty_name": "Dr. Pooja Reddy",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SCI",
+      "basket_name": "Minor Pool - Sciences (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S1-SOC#4",
+      "course_id": "MIN201",
+      "course_name": "Introduction to Psychology",
+      "category": "MINOR",
+      "kind": "tutorial",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F16",
+      "faculty_name": "Dr. Lata Mishra",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SOC",
+      "basket_name": "Minor Pool - Social Sciences (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S1-SOC#4",
+      "course_id": "MIN202",
+      "course_name": "Political Science Basics",
+      "category": "MINOR",
+      "kind": "tutorial",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F17",
+      "faculty_name": "Dr. Karan Malhotra",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 45,
+      "basket_id": "BK-MIN-S1-SOC",
+      "basket_name": "Minor Pool - Social Sciences (Sem 1)"
+    },
+    {
+      "event_id": "PHY302#4",
+      "course_id": "PHY302",
+      "course_name": "Electromagnetic Theory",
+      "category": "MAJOR",
+      "kind": "tutorial",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 4,
+      "duration": 1,
+      "start_time": "13:45",
+      "end_time": "14:40",
+      "cohorts": [
+        "PHY3"
+      ],
+      "faculty_id": "F03",
+      "faculty_name": "Dr. Rohit Verma",
+      "room_id": "CR-102",
+      "room_name": "Classroom 102",
+      "enrolment": 38,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-MDC-S1#3",
+      "course_id": "MDC101",
+      "course_name": "Sustainable Development",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F20",
+      "faculty_name": "Dr. Tara Joshi",
+      "room_id": "CR-108",
+      "room_name": "Classroom 108",
+      "enrolment": 45,
+      "basket_id": "BK-MDC-S1",
+      "basket_name": "Multidisciplinary Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-MDC-S1#3",
+      "course_id": "MDC102",
+      "course_name": "Music Appreciation",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F18",
+      "faculty_name": "Ms. Isha Bose",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 45,
+      "basket_id": "BK-MDC-S1",
+      "basket_name": "Multidisciplinary Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-MDC-S1#3",
+      "course_id": "MDC103",
+      "course_name": "Data Literacy",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F22",
+      "faculty_name": "Dr. Pooja Reddy",
+      "room_id": "CR-106",
+      "room_name": "Classroom 106",
+      "enrolment": 45,
+      "basket_id": "BK-MDC-S1",
+      "basket_name": "Multidisciplinary Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-MDC-S1#3",
+      "course_id": "MDC104",
+      "course_name": "Creative Writing",
+      "category": "MDC",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F19",
+      "faculty_name": "Dr. Rajeev Sinha",
+      "room_id": "CR-103",
+      "room_name": "Classroom 103",
+      "enrolment": 45,
+      "basket_id": "BK-MDC-S1",
+      "basket_name": "Multidisciplinary Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-MIN-S3#4",
+      "course_id": "MIN301",
+      "course_name": "Computational Mathematics",
+      "category": "MINOR",
+      "kind": "tutorial",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F12",
+      "faculty_name": "Dr. Vikram Singh",
+      "room_id": "CR-105",
+      "room_name": "Classroom 105",
+      "enrolment": 40,
+      "basket_id": "BK-MIN-S3",
+      "basket_name": "Minor Pool (Sem 3)"
+    },
+    {
+      "event_id": "BK-MIN-S3#4",
+      "course_id": "MIN302",
+      "course_name": "Applied Statistics",
+      "category": "MINOR",
+      "kind": "tutorial",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 5,
+      "duration": 1,
+      "start_time": "14:40",
+      "end_time": "15:35",
+      "cohorts": [
+        "PHY3",
+        "CS3"
+      ],
+      "faculty_id": "F13",
+      "faculty_name": "Dr. Anjali Desai",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 40,
+      "basket_id": "BK-MIN-S3",
+      "basket_name": "Minor Pool (Sem 3)"
+    },
+    {
+      "event_id": "PHY303#3",
+      "course_id": "PHY303",
+      "course_name": "Quantum Mechanics I",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY3"
+      ],
+      "faculty_id": "F01",
+      "faculty_name": "Dr. Anil Sharma",
+      "room_id": "CR-102",
+      "room_name": "Classroom 102",
+      "enrolment": 38,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "VAC101#2",
+      "course_id": "VAC101",
+      "course_name": "Environmental Studies",
+      "category": "VAC",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 6,
+      "duration": 1,
+      "start_time": "15:50",
+      "end_time": "16:45",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F15",
+      "faculty_name": "Dr. Mohan Das",
+      "room_id": "SEM-HALL",
+      "room_name": "Seminar Hall",
+      "enrolment": 165,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "PHY301#3",
+      "course_id": "PHY301",
+      "course_name": "Thermal Physics",
+      "category": "MAJOR",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY3"
+      ],
+      "faculty_id": "F01",
+      "faculty_name": "Dr. Anil Sharma",
+      "room_id": "CR-101",
+      "room_name": "Classroom 101",
+      "enrolment": 38,
+      "basket_id": null,
+      "basket_name": null
+    },
+    {
+      "event_id": "BK-SEC-S1#1",
+      "course_id": "SEC101",
+      "course_name": "Python Programming",
+      "category": "SEC",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F11",
+      "faculty_name": "Mr. Imran Khan (visiting)",
+      "room_id": "SEM-HALL",
+      "room_name": "Seminar Hall",
+      "enrolment": 60,
+      "basket_id": "BK-SEC-S1",
+      "basket_name": "Skill Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-SEC-S1#1",
+      "course_id": "SEC102",
+      "course_name": "Spreadsheet & Data Tools",
+      "category": "SEC",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F22",
+      "faculty_name": "Dr. Pooja Reddy",
+      "room_id": "CR-104",
+      "room_name": "Classroom 104",
+      "enrolment": 60,
+      "basket_id": "BK-SEC-S1",
+      "basket_name": "Skill Pool (Sem 1)"
+    },
+    {
+      "event_id": "BK-SEC-S1#1",
+      "course_id": "SEC103",
+      "course_name": "Electronics Hobby Lab",
+      "category": "SEC",
+      "kind": "theory",
+      "day": 5,
+      "day_name": "Sat",
+      "period": 7,
+      "duration": 1,
+      "start_time": "16:45",
+      "end_time": "17:40",
+      "cohorts": [
+        "PHY1",
+        "CHM1",
+        "ECO1",
+        "CS1"
+      ],
+      "faculty_id": "F03",
+      "faculty_name": "Dr. Rohit Verma",
+      "room_id": "CR-107",
+      "room_name": "Classroom 107",
+      "enrolment": 45,
+      "basket_id": "BK-SEC-S1",
+      "basket_name": "Skill Pool (Sem 1)"
+    }
+  ],
+  "objective": 370.0,
+  "bound": 115.0,
+  "ok": true,
+  "meta": {
+    "institution": "Sample Multidisciplinary University",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "periods": [
+      {
+        "label": "P1",
+        "start": "09:00",
+        "end": "09:55"
+      },
+      {
+        "label": "P2",
+        "start": "09:55",
+        "end": "10:50"
+      },
+      {
+        "label": "P3",
+        "start": "11:05",
+        "end": "12:00"
+      },
+      {
+        "label": "P4",
+        "start": "12:00",
+        "end": "12:55"
+      },
+      {
+        "label": "P5",
+        "start": "13:45",
+        "end": "14:40"
+      },
+      {
+        "label": "P6",
+        "start": "14:40",
+        "end": "15:35"
+      },
+      {
+        "label": "P7",
+        "start": "15:50",
+        "end": "16:45"
+      },
+      {
+        "label": "P8",
+        "start": "16:45",
+        "end": "17:40"
+      }
+    ],
+    "breaks_after": [
+      4
+    ],
+    "cohorts": [
+      {
+        "id": "PHY1",
+        "name": "B.Sc. Physics - Sem 1",
+        "size": 40,
+        "semester": 1
+      },
+      {
+        "id": "CHM1",
+        "name": "B.Sc. Chemistry - Sem 1",
+        "size": 40,
+        "semester": 1
+      },
+      {
+        "id": "ECO1",
+        "name": "B.A. Economics - Sem 1",
+        "size": 45,
+        "semester": 1
+      },
+      {
+        "id": "CS1",
+        "name": "B.Sc. Computer Science - Sem 1",
+        "size": 40,
+        "semester": 1
+      },
+      {
+        "id": "PHY3",
+        "name": "B.Sc. Physics - Sem 3",
+        "size": 38,
+        "semester": 3
+      },
+      {
+        "id": "CS3",
+        "name": "B.Sc. Computer Science - Sem 3",
+        "size": 42,
+        "semester": 3
+      }
+    ],
+    "faculty": [
+      {
+        "id": "F01",
+        "name": "Dr. Anil Sharma",
+        "department": "Physics"
+      },
+      {
+        "id": "F02",
+        "name": "Dr. Meera Iyer",
+        "department": "Physics"
+      },
+      {
+        "id": "F03",
+        "name": "Dr. Rohit Verma",
+        "department": "Physics"
+      },
+      {
+        "id": "F04",
+        "name": "Dr. Kavita Rao",
+        "department": "Chemistry"
+      },
+      {
+        "id": "F05",
+        "name": "Dr. Sanjay Gupta",
+        "department": "Chemistry"
+      },
+      {
+        "id": "F06",
+        "name": "Dr. Neha Kapoor",
+        "department": "Economics"
+      },
+      {
+        "id": "F07",
+        "name": "Dr. Arvind Menon",
+        "department": "Economics"
+      },
+      {
+        "id": "F08",
+        "name": "Dr. Priya Nair",
+        "department": "Computer Science"
+      },
+      {
+        "id": "F09",
+        "name": "Mr. Rahul Jain",
+        "department": "Computer Science"
+      },
+      {
+        "id": "F10",
+        "name": "Dr. Sneha Patel",
+        "department": "Computer Science"
+      },
+      {
+        "id": "F11",
+        "name": "Mr. Imran Khan (visiting)",
+        "department": "Computer Science"
+      },
+      {
+        "id": "F12",
+        "name": "Dr. Vikram Singh",
+        "department": "Mathematics"
+      },
+      {
+        "id": "F13",
+        "name": "Dr. Anjali Desai",
+        "department": "Mathematics"
+      },
+      {
+        "id": "F14",
+        "name": "Dr. Farah Ahmed",
+        "department": "English"
+      },
+      {
+        "id": "F15",
+        "name": "Dr. Mohan Das",
+        "department": "Environmental Science"
+      },
+      {
+        "id": "F16",
+        "name": "Dr. Lata Mishra",
+        "department": "Psychology"
+      },
+      {
+        "id": "F17",
+        "name": "Dr. Karan Malhotra",
+        "department": "Political Science"
+      },
+      {
+        "id": "F18",
+        "name": "Ms. Isha Bose",
+        "department": "Music"
+      },
+      {
+        "id": "F19",
+        "name": "Dr. Rajeev Sinha",
+        "department": "Humanities"
+      },
+      {
+        "id": "F20",
+        "name": "Dr. Tara Joshi",
+        "department": "Environmental Science"
+      },
+      {
+        "id": "F21",
+        "name": "Mr. Sameer Ali (visiting)",
+        "department": "Management"
+      },
+      {
+        "id": "F22",
+        "name": "Dr. Pooja Reddy",
+        "department": "Statistics"
+      }
+    ],
+    "rooms": [
+      {
+        "id": "CR-101",
+        "name": "Classroom 101",
+        "kind": "classroom",
+        "capacity": 60
+      },
+      {
+        "id": "CR-102",
+        "name": "Classroom 102",
+        "kind": "classroom",
+        "capacity": 60
+      },
+      {
+        "id": "CR-103",
+        "name": "Classroom 103",
+        "kind": "classroom",
+        "capacity": 60
+      },
+      {
+        "id": "CR-104",
+        "name": "Classroom 104",
+        "kind": "classroom",
+        "capacity": 60
+      },
+      {
+        "id": "CR-105",
+        "name": "Classroom 105",
+        "kind": "classroom",
+        "capacity": 50
+      },
+      {
+        "id": "CR-106",
+        "name": "Classroom 106",
+        "kind": "classroom",
+        "capacity": 50
+      },
+      {
+        "id": "CR-107",
+        "name": "Classroom 107",
+        "kind": "classroom",
+        "capacity": 50
+      },
+      {
+        "id": "CR-108",
+        "name": "Classroom 108",
+        "kind": "classroom",
+        "capacity": 50
+      },
+      {
+        "id": "SEM-HALL",
+        "name": "Seminar Hall",
+        "kind": "classroom",
+        "capacity": 200
+      },
+      {
+        "id": "LAB-PHY",
+        "name": "Physics Lab",
+        "kind": "lab",
+        "capacity": 45
+      },
+      {
+        "id": "LAB-CHM",
+        "name": "Chemistry Lab",
+        "kind": "lab",
+        "capacity": 45
+      },
+      {
+        "id": "LAB-CS1",
+        "name": "Computer Lab 1",
+        "kind": "lab",
+        "capacity": 60
+      },
+      {
+        "id": "LAB-CS2",
+        "name": "Computer Lab 2",
+        "kind": "lab",
+        "capacity": 60
+      }
+    ],
+    "categories": {
+      "MAJOR": "Major (DSC)",
+      "MINOR": "Minor (DSM)",
+      "MDC": "Multidisciplinary (MDC)",
+      "AEC": "Ability Enhancement (AEC)",
+      "SEC": "Skill Enhancement (SEC)",
+      "VAC": "Value Added (VAC)",
+      "OTHER": "Other"
+    }
+  },
+  "diagnostics": [],
+  "violations": [],
+  "metrics": {
+    "cohort_gaps": {
+      "PHY1": 0,
+      "CHM1": 1,
+      "ECO1": 1,
+      "CS1": 0,
+      "PHY3": 1,
+      "CS3": 0
+    },
+    "total_gaps": 3,
+    "cohort_daily_load": {
+      "PHY1": [
+        1,
+        3,
+        3,
+        4,
+        5,
+        7
+      ],
+      "CHM1": [
+        3,
+        4,
+        2,
+        4,
+        3,
+        7
+      ],
+      "ECO1": [
+        0,
+        3,
+        3,
+        4,
+        6,
+        6
+      ],
+      "CS1": [
+        2,
+        3,
+        2,
+        4,
+        6,
+        6
+      ],
+      "PHY3": [
+        3,
+        3,
+        5,
+        4,
+        5,
+        5
+      ],
+      "CS3": [
+        5,
+        5,
+        3,
+        5,
+        5,
+        3
+      ]
+    },
+    "faculty_load": {
+      "F01": {
+        "week": 9,
+        "per_day": [
+          0,
+          2,
+          2,
+          1,
+          2,
+          2
+        ],
+        "max_week": 18
+      },
+      "F02": {
+        "week": 5,
+        "per_day": [
+          0,
+          0,
+          1,
+          2,
+          1,
+          1
+        ],
+        "max_week": 18
+      },
+      "F03": {
+        "week": 7,
+        "per_day": [
+          0,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "max_week": 18
+      },
+      "F04": {
+        "week": 5,
+        "per_day": [
+          3,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "max_week": 18
+      },
+      "F05": {
+        "week": 4,
+        "per_day": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "max_week": 18
+      },
+      "F06": {
+        "week": 4,
+        "per_day": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "max_week": 18
+      },
+      "F07": {
+        "week": 4,
+        "per_day": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "max_week": 18
+      },
+      "F08": {
+        "week": 5,
+        "per_day": [
+          0,
+          3,
+          0,
+          1,
+          1,
+          0
+        ],
+        "max_week": 18
+      },
+      "F09": {
+        "week": 8,
+        "per_day": [
+          4,
+          0,
+          0,
+          1,
+          2,
+          1
+        ],
+        "max_week": 18
+      },
+      "F10": {
+        "week": 9,
+        "per_day": [
+          2,
+          1,
+          1,
+          2,
+          2,
+          1
+        ],
+        "max_week": 18
+      },
+      "F11": {
+        "week": 3,
+        "per_day": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "max_week": 18
+      },
+      "F12": {
+        "week": 12,
+        "per_day": [
+          1,
+          1,
+          3,
+          2,
+          2,
+          3
+        ],
+        "max_week": 18
+      },
+      "F13": {
+        "week": 8,
+        "per_day": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1
+        ],
+        "max_week": 18
+      },
+      "F14": {
+        "week": 4,
+        "per_day": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "max_week": 18
+      },
+      "F15": {
+        "week": 2,
+        "per_day": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "max_week": 18
+      },
+      "F16": {
+        "week": 4,
+        "per_day": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "max_week": 18
+      },
+      "F17": {
+        "week": 4,
+        "per_day": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "max_week": 18
+      },
+      "F18": {
+        "week": 3,
+        "per_day": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "max_week": 18
+      },
+      "F19": {
+        "week": 6,
+        "per_day": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "max_week": 18
+      },
+      "F20": {
+        "week": 6,
+        "per_day": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "max_week": 18
+      },
+      "F21": {
+        "week": 3,
+        "per_day": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "max_week": 18
+      },
+      "F22": {
+        "week": 13,
+        "per_day": [
+          2,
+          3,
+          1,
+          2,
+          2,
+          3
+        ],
+        "max_week": 18
+      }
+    },
+    "room_utilisation": {
+      "CR-101": 35.4,
+      "CR-102": 20.8,
+      "CR-103": 8.3,
+      "CR-104": 2.1,
+      "CR-105": 35.4,
+      "CR-106": 33.3,
+      "CR-107": 37.5,
+      "CR-108": 33.3,
+      "SEM-HALL": 14.6,
+      "LAB-PHY": 12.5,
+      "LAB-CHM": 4.2,
+      "LAB-CS1": 12.5,
+      "LAB-CS2": 16.7
+    }
+  },
+  "nep": {
+    "cohorts": {
+      "PHY1": {
+        "name": "B.Sc. Physics - Sem 1",
+        "semester": 1,
+        "total_credits": 21,
+        "weekly_hours": 23,
+        "credits_by_category": {
+          "MAJOR": 8,
+          "MINOR": 4,
+          "MDC": 3,
+          "AEC": 2,
+          "VAC": 2,
+          "SEC": 2
+        },
+        "checks": [
+          {
+            "name": "Credit load",
+            "status": "PASS",
+            "detail": "21 credits (allowed 18-26 per semester)"
+          },
+          {
+            "name": "Weekly contact hours",
+            "status": "PASS",
+            "detail": "23 h/week (limit 30)"
+          },
+          {
+            "name": "MAJOR credits",
+            "status": "PASS",
+            "detail": "8 credits (minimum 8 in semester 1)"
+          },
+          {
+            "name": "MINOR credits",
+            "status": "PASS",
+            "detail": "4 credits (minimum 4 in semester 1)"
+          },
+          {
+            "name": "MDC credits",
+            "status": "PASS",
+            "detail": "3 credits (minimum 3 in semester 1)"
+          },
+          {
+            "name": "AEC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 1)"
+          },
+          {
+            "name": "SEC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 1)"
+          },
+          {
+            "name": "VAC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 1)"
+          },
+          {
+            "name": "Multidisciplinary exposure",
+            "status": "PASS",
+            "detail": "Courses from Computer Science, English, Environmental Science, Humanities, Mathematics, Music, Statistics"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Multidisciplinary Pool (Sem 1): 4 option(s), all options run in parallel"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Minor Pool - Sciences (Sem 1): 2 option(s), all options run in parallel"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Skill Pool (Sem 1): 3 option(s), all options run in parallel"
+          }
+        ]
+      },
+      "CHM1": {
+        "name": "B.Sc. Chemistry - Sem 1",
+        "semester": 1,
+        "total_credits": 21,
+        "weekly_hours": 23,
+        "credits_by_category": {
+          "MAJOR": 8,
+          "MINOR": 4,
+          "MDC": 3,
+          "AEC": 2,
+          "VAC": 2,
+          "SEC": 2
+        },
+        "checks": [
+          {
+            "name": "Credit load",
+            "status": "PASS",
+            "detail": "21 credits (allowed 18-26 per semester)"
+          },
+          {
+            "name": "Weekly contact hours",
+            "status": "PASS",
+            "detail": "23 h/week (limit 30)"
+          },
+          {
+            "name": "MAJOR credits",
+            "status": "PASS",
+            "detail": "8 credits (minimum 8 in semester 1)"
+          },
+          {
+            "name": "MINOR credits",
+            "status": "PASS",
+            "detail": "4 credits (minimum 4 in semester 1)"
+          },
+          {
+            "name": "MDC credits",
+            "status": "PASS",
+            "detail": "3 credits (minimum 3 in semester 1)"
+          },
+          {
+            "name": "AEC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 1)"
+          },
+          {
+            "name": "SEC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 1)"
+          },
+          {
+            "name": "VAC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 1)"
+          },
+          {
+            "name": "Multidisciplinary exposure",
+            "status": "PASS",
+            "detail": "Courses from Computer Science, English, Environmental Science, Humanities, Mathematics, Music, Physics, Statistics"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Multidisciplinary Pool (Sem 1): 4 option(s), all options run in parallel"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Minor Pool - Sciences (Sem 1): 2 option(s), all options run in parallel"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Skill Pool (Sem 1): 3 option(s), all options run in parallel"
+          }
+        ]
+      },
+      "ECO1": {
+        "name": "B.A. Economics - Sem 1",
+        "semester": 1,
+        "total_credits": 21,
+        "weekly_hours": 22,
+        "credits_by_category": {
+          "MAJOR": 8,
+          "MINOR": 4,
+          "MDC": 3,
+          "AEC": 2,
+          "VAC": 2,
+          "SEC": 2
+        },
+        "checks": [
+          {
+            "name": "Credit load",
+            "status": "PASS",
+            "detail": "21 credits (allowed 18-26 per semester)"
+          },
+          {
+            "name": "Weekly contact hours",
+            "status": "PASS",
+            "detail": "22 h/week (limit 30)"
+          },
+          {
+            "name": "MAJOR credits",
+            "status": "PASS",
+            "detail": "8 credits (minimum 8 in semester 1)"
+          },
+          {
+            "name": "MINOR credits",
+            "status": "PASS",
+            "detail": "4 credits (minimum 4 in semester 1)"
+          },
+          {
+            "name": "MDC credits",
+            "status": "PASS",
+            "detail": "3 credits (minimum 3 in semester 1)"
+          },
+          {
+            "name": "AEC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 1)"
+          },
+          {
+            "name": "SEC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 1)"
+          },
+          {
+            "name": "VAC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 1)"
+          },
+          {
+            "name": "Multidisciplinary exposure",
+            "status": "PASS",
+            "detail": "Courses from Computer Science, English, Environmental Science, Humanities, Music, Physics, Political Science, Psychology, Statistics"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Multidisciplinary Pool (Sem 1): 4 option(s), all options run in parallel"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Minor Pool - Social Sciences (Sem 1): 2 option(s), all options run in parallel"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Skill Pool (Sem 1): 3 option(s), all options run in parallel"
+          }
+        ]
+      },
+      "CS1": {
+        "name": "B.Sc. Computer Science - Sem 1",
+        "semester": 1,
+        "total_credits": 21,
+        "weekly_hours": 23,
+        "credits_by_category": {
+          "MAJOR": 8,
+          "MINOR": 4,
+          "MDC": 3,
+          "AEC": 2,
+          "VAC": 2,
+          "SEC": 2
+        },
+        "checks": [
+          {
+            "name": "Credit load",
+            "status": "PASS",
+            "detail": "21 credits (allowed 18-26 per semester)"
+          },
+          {
+            "name": "Weekly contact hours",
+            "status": "PASS",
+            "detail": "23 h/week (limit 30)"
+          },
+          {
+            "name": "MAJOR credits",
+            "status": "PASS",
+            "detail": "8 credits (minimum 8 in semester 1)"
+          },
+          {
+            "name": "MINOR credits",
+            "status": "PASS",
+            "detail": "4 credits (minimum 4 in semester 1)"
+          },
+          {
+            "name": "MDC credits",
+            "status": "PASS",
+            "detail": "3 credits (minimum 3 in semester 1)"
+          },
+          {
+            "name": "AEC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 1)"
+          },
+          {
+            "name": "SEC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 1)"
+          },
+          {
+            "name": "VAC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 1)"
+          },
+          {
+            "name": "Multidisciplinary exposure",
+            "status": "PASS",
+            "detail": "Courses from English, Environmental Science, Humanities, Mathematics, Music, Physics, Political Science, Psychology, Statistics"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Multidisciplinary Pool (Sem 1): 4 option(s), all options run in parallel"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Minor Pool - Social Sciences (Sem 1): 2 option(s), all options run in parallel"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Skill Pool (Sem 1): 3 option(s), all options run in parallel"
+          }
+        ]
+      },
+      "PHY3": {
+        "name": "B.Sc. Physics - Sem 3",
+        "semester": 3,
+        "total_credits": 23,
+        "weekly_hours": 25,
+        "credits_by_category": {
+          "MAJOR": 12,
+          "MINOR": 4,
+          "MDC": 3,
+          "AEC": 2,
+          "SEC": 2
+        },
+        "checks": [
+          {
+            "name": "Credit load",
+            "status": "PASS",
+            "detail": "23 credits (allowed 18-26 per semester)"
+          },
+          {
+            "name": "Weekly contact hours",
+            "status": "PASS",
+            "detail": "25 h/week (limit 30)"
+          },
+          {
+            "name": "MAJOR credits",
+            "status": "PASS",
+            "detail": "12 credits (minimum 8 in semester 3)"
+          },
+          {
+            "name": "MINOR credits",
+            "status": "PASS",
+            "detail": "4 credits (minimum 4 in semester 3)"
+          },
+          {
+            "name": "MDC credits",
+            "status": "PASS",
+            "detail": "3 credits (minimum 3 in semester 3)"
+          },
+          {
+            "name": "AEC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 3)"
+          },
+          {
+            "name": "SEC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 3)"
+          },
+          {
+            "name": "Multidisciplinary exposure",
+            "status": "PASS",
+            "detail": "Courses from Computer Science, English, Environmental Science, Humanities, Management, Mathematics, Statistics"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Multidisciplinary Pool (Sem 3): 3 option(s), all options run in parallel"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Minor Pool (Sem 3): 2 option(s), all options run in parallel"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Skill Pool (Sem 3): 2 option(s), all options run in parallel"
+          }
+        ]
+      },
+      "CS3": {
+        "name": "B.Sc. Computer Science - Sem 3",
+        "semester": 3,
+        "total_credits": 23,
+        "weekly_hours": 26,
+        "credits_by_category": {
+          "MAJOR": 12,
+          "MINOR": 4,
+          "MDC": 3,
+          "AEC": 2,
+          "SEC": 2
+        },
+        "checks": [
+          {
+            "name": "Credit load",
+            "status": "PASS",
+            "detail": "23 credits (allowed 18-26 per semester)"
+          },
+          {
+            "name": "Weekly contact hours",
+            "status": "PASS",
+            "detail": "26 h/week (limit 30)"
+          },
+          {
+            "name": "MAJOR credits",
+            "status": "PASS",
+            "detail": "12 credits (minimum 8 in semester 3)"
+          },
+          {
+            "name": "MINOR credits",
+            "status": "PASS",
+            "detail": "4 credits (minimum 4 in semester 3)"
+          },
+          {
+            "name": "MDC credits",
+            "status": "PASS",
+            "detail": "3 credits (minimum 3 in semester 3)"
+          },
+          {
+            "name": "AEC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 3)"
+          },
+          {
+            "name": "SEC credits",
+            "status": "PASS",
+            "detail": "2 credits (minimum 2 in semester 3)"
+          },
+          {
+            "name": "Multidisciplinary exposure",
+            "status": "PASS",
+            "detail": "Courses from English, Environmental Science, Humanities, Management, Mathematics, Statistics"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Multidisciplinary Pool (Sem 3): 3 option(s), all options run in parallel"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Minor Pool (Sem 3): 2 option(s), all options run in parallel"
+          },
+          {
+            "name": "Elective choice",
+            "status": "PASS",
+            "detail": "Skill Pool (Sem 3): 2 option(s), all options run in parallel"
+          }
+        ]
+      }
+    },
+    "summary": {
+      "PASS": 70,
+      "WARN": 0,
+      "FAIL": 0
+    }
+  }
+}

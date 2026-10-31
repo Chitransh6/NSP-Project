@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEP 2020 Timetable Studio</title>
+<style>
+:root{
+  --ink:#1c2733; --muted:#5b6876; --ground:#e8ecf1; --panel:#ffffff; --line:#cfd6de;
+  --accent:#155e75; --accent-ink:#ffffff; --warn:#9a5b00; --bad:#a32121; --good:#1d6b3a;
+  --MAJOR:#d6e4ff; --MINOR:#d9f2e1; --MDC:#ffe8c2; --AEC:#f4d9f0; --SEC:#d5f0f5; --VAC:#fff3b8; --OTHER:#e6e6e6;
+}
+@media (prefers-color-scheme:dark){
+  :root{--ink:#e6ebf1; --muted:#9aa7b5; --ground:#151b22; --panel:#1e262f; --line:#35414e; --accent:#4cb4cf; --accent-ink:#0b1a20;
+    --warn:#f0b35a; --bad:#ff8f8f; --good:#74d49a;
+    --MAJOR:#2b3f66; --MINOR:#24483a; --MDC:#5a4527; --AEC:#523250; --SEC:#1f4650; --VAC:#524a1f; --OTHER:#3a3f45}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3{font-family:"Iowan Old Style",Georgia,"Times New Roman",serif;font-weight:600;margin:0}
+.app{display:grid;grid-template-columns:340px 1fr;min-height:100vh}
+aside{background:var(--panel);border-right:1px solid var(--line);padding:22px 20px;display:flex;flex-direction:column;gap:14px}
+aside h1{font-size:25px;line-height:1.15}
+aside p{margin:0;color:var(--muted)}
+textarea{width:100%;height:230px;font:12px/1.4 ui-monospace,Menlo,Consolas,monospace;background:var(--ground);color:var(--ink);
+  border:1px solid var(--line);border-radius:6px;padding:8px;resize:vertical}
+label{display:flex;justify-content:space-between;align-items:center;gap:8px;color:var(--muted)}
+input[type=number]{width:80px;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--ground);color:var(--ink)}
+button{font:inherit;border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:8px 12px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+button:focus-visible,select:focus-visible,textarea:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600;padding:11px 12px}
+button:disabled{opacity:.55;cursor:wait}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+main{padding:24px 28px;min-width:0}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 14px;min-width:130px}
+.stat b{display:block;font-size:20px}
+.stat span{color:var(--muted);font-size:13px}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:16px}
+.tab{border:none;border-bottom:3px solid transparent;border-radius:0;background:none;padding:9px 14px}
+.tab[aria-selected=true]{border-bottom-color:var(--accent);font-weight:600}
+.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+select{padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);font:inherit}
+.seg button{border-radius:0}.seg button:first-child{border-radius:6px 0 0 6px}.seg button:last-child{border-radius:0 6px 6px 0}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.gridwrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px}
+table.tt{border-collapse:collapse;width:100%;min-width:860px;table-layout:fixed}
+.tt th,.tt td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;font-size:13px}
+.tt th{background:var(--ink);color:var(--ground);font-weight:600;text-align:center}
+.tt td.pl{width:96px;background:var(--ground);font-weight:600}
+.tt td.pl small{display:block;color:var(--muted);font-weight:400}
+.tt tr.brk td{background:var(--ground);color:var(--muted);text-align:center;font-style:italic;padding:3px}
+.tt td.s{height:64px}
+.tt .c{font-weight:600}.tt .t{color:var(--muted);font-size:12px}
+.tt .basket{font-size:12px;font-style:italic;margin-bottom:3px}
+.tt .opt{border-top:1px dashed var(--line);padding-top:3px;margin-top:3px}
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px;color:var(--muted);font-size:13px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px;border:1px solid var(--line)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:12px}
+.card h3{font-size:17px;margin-bottom:8px}
+.chk{display:grid;grid-template-columns:20px 190px 1fr;gap:6px;padding:3px 0;font-size:14px}
+.PASS{color:var(--good)}.WARN{color:var(--warn)}.FAIL,.error{color:var(--bad)}.warning{color:var(--warn)}
+.empty{padding:60px 20px;text-align:center;color:var(--muted)}
+.empty h2{color:var(--ink);margin-bottom:6px}
+table.simple{border-collapse:collapse;width:100%}.simple th,.simple td{text-align:left;padding:5px 8px;border-bottom:1px solid var(--line);font-size:14px}
+.bar-in{height:8px;border-radius:4px;background:var(--ground);overflow:hidden;min-width:80px}.bar-in div{height:100%;background:var(--accent)}
+#msg{color:var(--bad);min-height:20px}
+@media (max-width:860px){.app{grid-template-columns:1fr}aside{border-right:none;border-bottom:1px solid var(--line)}main{padding:18px 14px}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside>
+  <h1>Timetable Studio</h1>
+  <p>Builds clash-free timetables for multidisciplinary programmes under NEP 2020: credit-based hours, parallel elective baskets and compliance checks.</p>
+  <textarea id="data" spellcheck="false" aria-label="Dataset JSON"></textarea>
+  <div class="row">
+    <button id="sample">Load sample data</button>
+    <button id="upload">Upload JSON</button>
+    <input id="file" type="file" accept=".json" hidden>
+  </div>
+  <label>Solver time limit (seconds) <input id="limit" type="number" min="5" max="300" value="30"></label>
+  <button class="primary" id="go">Generate timetable</button>
+  <div id="msg" role="status"></div>
+  <div class="row">
+    <button id="xlsx" disabled>Download Excel</button>
+    <button id="json" disabled>Download JSON</button>
+  </div>
+</aside>
+<main id="main">
+  <div class="empty"><h2>No timetable yet</h2><p>Load the sample data or upload your own dataset, then choose Generate timetable.</p></div>
+</main>
+</div>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let R = null, view = 'cohort', entity = null, tab = 'tt';
+
+async function loadSample(){
+  const r = await fetch('/api/sample'); $('#data').value = JSON.stringify(await r.json(), null, 2);
+}
+$('#sample').onclick = loadSample;
+$('#upload').onclick = () => $('#file').click();
+$('#file').onchange = async e => { const f = e.target.files[0]; if(f) $('#data').value = await f.text(); };
+$('#xlsx').onclick = () => location.href = '/api/export/xlsx';
+$('#json').onclick = () => location.href = '/api/export/json';
+
+$('#go').onclick = async () => {
+  let data; $('#msg').textContent = '';
+  try { data = JSON.parse($('#data').value); } catch(e){ $('#msg').textContent = 'The dataset is not valid JSON: ' + e.message; return; }
+  const b = $('#go'); b.disabled = true; b.textContent = 'Solving…';
+  try {
+    const res = await fetch('/api/generate', {method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({data, time_limit: +$('#limit').value || 20})});
+    const j = await res.json();
+    if(!res.ok){ $('#msg').textContent = j.error || 'Request failed'; return; }
+    R = j; entity = null; tab = 'tt';
+    $('#xlsx').disabled = $('#json').disabled = !R.ok;
+    render();
+  } catch(e){ $('#msg').textContent = 'Could not reach the server: ' + e.message; }
+  finally { b.disabled = false; b.textContent = 'Generate timetable'; }
+};
+
+function entities(){
+  const m = R.meta;
+  return view==='cohort' ? m.cohorts.map(c=>[c.id,c.name]) :
+         view==='faculty' ? m.faculty.map(f=>[f.id,f.name+' ('+f.department+')']) :
+         m.rooms.map(r=>[r.id,r.name+' ('+r.capacity+')']);
+}
+function pick(s){ return view==='cohort' ? s.cohorts.includes(entity) : view==='faculty' ? s.faculty_id===entity : s.room_id===entity; }
+
+function render(){
+  const m = R.meta, sum = R.nep.summary;
+  let h = '<div class="stats">' +
+    stat(R.status, 'solver status') + stat(R.sessions.length, 'sessions placed') +
+    stat(R.ok ? R.metrics.total_gaps : '–', 'idle gaps in student days') +
+    stat(R.violations.length, 'rule violations') + stat(sum.PASS+'/'+(sum.PASS+sum.WARN+sum.FAIL), 'NEP checks passed') +
+    stat(R.wall_time+'s', 'solve time') + '</div>';
+  h += '<div class="tabs" role="tablist">' + [['tt','Timetable'],['nep','NEP compliance'],['qa','Checks and workload']]
+    .map(([k,l])=>`<button class="tab" role="tab" aria-selected="${tab===k}" data-t="${k}">${l}</button>`).join('') + '</div>';
+  if(!R.ok){
+    h += `<div class="card"><h3>No timetable could be built</h3><p>${esc(R.note||'')}</p></div>` + diag();
+  } else if(tab==='tt') h += gridView();
+  else if(tab==='nep') h += nepView();
+  else h += qaView();
+  $('#main').innerHTML = h;
+  document.querySelectorAll('.tab').forEach(b => b.onclick = () => { tab = b.dataset.t; render(); });
+  document.querySelectorAll('[data-v]').forEach(b => b.onclick = () => { view = b.dataset.v; entity = null; render(); });
+  const sel = $('#ent'); if(sel) sel.onchange = () => { entity = sel.value; render(); };
+}
+const stat = (v,l) => `<div class="stat"><b>${esc(v)}</b><span>${l}</span></div>`;
+
+function gridView(){
+  const m = R.meta, list = entities(); if(!entity || !list.find(x=>x[0]===entity)) entity = list[0][0];
+  let h = '<div class="bar"><div class="seg">' + [['cohort','Student group'],['faculty','Faculty'],['room','Room']]
+    .map(([k,l])=>`<button data-v="${k}" aria-pressed="${view===k}">${l}</button>`).join('') + '</div>' +
+    `<select id="ent" aria-label="Choose">${list.map(([i,n])=>`<option value="${esc(i)}" ${i===entity?'selected':''}>${esc(n)}</option>`).join('')}</select></div>`;
+  const ss = R.sessions.filter(pick), at = {}, covered = new Set();
+  ss.forEach(s => { const k = s.day+'-'+s.period+'-'+s.duration; (at[k] = at[k] || []).push(s);
+    for(let i=1;i<s.duration;i++) covered.add(s.day+'-'+(s.period+i)); });
+  h += '<div class="gridwrap"><table class="tt"><thead><tr><th></th>' + m.days.map(d=>`<th>${esc(d)}</th>`).join('') + '</tr></thead><tbody>';
+  m.periods.forEach((p,pi) => {
+    h += `<tr><td class="pl">${esc(p.label)}<small>${esc(p.start)}–${esc(p.end)}</small></td>`;
+    m.days.forEach((_,d) => {
+      if(covered.has(d+'-'+pi)) return;
+      const key = Object.keys(at).find(k => k.startsWith(d+'-'+pi+'-'));
+      if(!key){ h += '<td class="s"></td>'; return; }
+      const g = at[key], dur = g[0].duration;
+      h += `<td class="s" rowspan="${dur}" style="background:var(--${g[0].category})">${cell(g)}</td>`;
+    });
+    h += '</tr>';
+    if(m.breaks_after.includes(pi+1)) h += `<tr class="brk"><td colspan="${m.days.length+1}">Break</td></tr>`;
+  });
+  h += '</tbody></table></div><div class="legend">' + Object.entries(m.categories)
+    .map(([k,v])=>`<span><i style="background:var(--${k})"></i>${esc(v)}</span>`).join('') + '</div>';
+  return h;
+}
+function cell(g){
+  const one = s => {
+    const tag = s.kind==='practical' ? ' · Lab' : s.kind==='tutorial' ? ' · Tutorial' : '';
+    const who = view==='cohort' ? s.faculty_name+' · '+s.room_id : view==='faculty' ? s.cohorts.join(', ')+' · '+s.room_id
+              : s.faculty_name+' · '+s.cohorts.join(', ');
+    return `<div class="c">${esc(s.course_id)} ${esc(s.course_name)}${tag}</div><div class="t">${esc(who)}</div>`;
+  };
+  if(g.length===1 || view!=='cohort') return g.map(one).join('');
+  return `<div class="basket">${esc(g[0].basket_name||'Elective basket')} – choose one</div>` +
+    g.map((s,i)=>`<div class="${i?'opt':''}">${one(s)}</div>`).join('');
+}
+function nepView(){
+  const icon = {PASS:'✓',WARN:'!',FAIL:'✗'};
+  return Object.entries(R.nep.cohorts).map(([id,c]) =>
+    `<div class="card"><h3>${esc(c.name)}</h3><p style="margin:0 0 8px;color:var(--muted)">${c.total_credits} credits · ${c.weekly_hours} contact hours a week · ` +
+    Object.entries(c.credits_by_category).map(([k,v])=>`${k} ${v}`).join(', ') + '</p>' +
+    c.checks.map(k=>`<div class="chk"><span class="${k.status}">${icon[k.status]}</span><span>${esc(k.name)}</span><span class="${k.status==='PASS'?'':k.status}">${esc(k.detail)}</span></div>`).join('') + '</div>').join('');
+}
+function diag(){
+  if(!R.diagnostics.length) return '';
+  return '<div class="card"><h3>Capacity analysis</h3>' + R.diagnostics.map(i=>`<div class="${i.level}">${i.level==='error'?'Problem':'Heads-up'}: ${esc(i.message)}</div>`).join('') + '</div>';
+}
+function qaView(){
+  let h = '<div class="card"><h3>Rule verification</h3>' + (R.violations.length
+    ? R.violations.map(v=>`<div class="FAIL">${esc(v.type)}: ${esc(v.message)}</div>`).join('')
+    : '<div class="PASS">An independent check found no faculty, room or student clashes, and every course has the hours its credits require.</div>') + '</div>';
+  h += diag();
+  const fl = R.metrics.faculty_load, days = R.meta.days;
+  h += '<div class="card"><h3>Faculty workload</h3><table class="simple"><tr><th>Faculty</th><th>Hours</th><th>Load</th>' + days.map(d=>`<th>${esc(d)}</th>`).join('') + '</tr>' +
+    R.meta.faculty.filter(f=>fl[f.id].week).map(f=>{ const m = fl[f.id];
+      return `<tr><td>${esc(f.name)}</td><td>${m.week}/${m.max_week}</td><td><div class="bar-in"><div style="width:${100*m.week/m.max_week}%"></div></div></td>` + m.per_day.map(x=>`<td>${x||''}</td>`).join('') + '</tr>'; }).join('') + '</table></div>';
+  const ru = R.metrics.room_utilisation;
+  h += '<div class="card"><h3>Room use (share of weekly slots)</h3><table class="simple">' +
+    R.meta.rooms.map(r=>`<tr><td>${esc(r.name)}</td><td style="width:60%"><div class="bar-in"><div style="width:${ru[r.id]}%"></div></div></td><td>${ru[r.id]}%</td></tr>`).join('') + '</table></div>';
+  return h;
+}
+loadSample();
+</script>
+</body>
+</html>
